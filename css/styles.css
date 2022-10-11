@@ -33,11 +33,17 @@ ul {
     margin: 0;
 }
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 /* header */
 
 .page-header{
     background-color: var(--white-color);
-    padding: 0 215px;
     border-bottom: 1px solid #ECECEC;;
 }
 
@@ -117,6 +123,8 @@ ul {
 .section-main {
     background-color: var(--bg-black-color);
     height: 600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .main-title {
@@ -139,7 +147,6 @@ ul {
     line-height: 1.88;
     letter-spacing: 0.06em;
 
-    margin: 0 auto;
     border: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -151,20 +158,15 @@ ul {
     flex-direction: column;
     align-items: center;
     gap: 40px;
-    padding-top: 200px;
 }
 
 /* benefits section */
 
 .section-benefits {
     background-color: var(--bg-white-color);
+    padding-top: 94px;
 }
 
-.benefits-container {
-    padding-top: 94px;
-    padding-left: 215px;
-    padding-right: 215px;
-}
 
 .benefits-list {
     display: flex;
@@ -188,30 +190,22 @@ ul {
 
 .section-working {
     background-color: var(--bg-white-color);
-}
-
-.container-working {
     padding-top: 94px;
-    padding-left: 215px;
-    padding-right: 215px;
-    
 }
 
 .list-working {
     display: flex;
     padding-top: 50px;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 30px;
 }
 
 /* section-team */
 
-.container-team {
-    padding: 94px 215px;
-    padding-left: 215px;
-}
-
 .section-team {
     background-color: var(--bg-white2-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .list-team-container {
@@ -245,10 +239,11 @@ ul {
 
 /* footer */
 .container-footer {
-display: flex;
-flex-direction: column;
-gap: 20px;
-padding: 60px 215px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .address-container {
@@ -282,26 +277,20 @@ padding: 60px 215px;
 
 .main-portpholio {
     background-color: var(--bg-white-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .container-portpholio {
     display: flex;
     flex-direction: column;
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
-.container-button {
-    padding-left: 512px;
-    padding-right: 513px;
-    width: 1600px;
 }
 
 .button-list {
     display: flex;
     gap: 8px;
     padding-bottom: 50px;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .btn {
@@ -322,12 +311,6 @@ padding: 60px 215px;
 .active-btn {
     background-color: var(--accent-color);
     color: var(--white-color);
-}
-
-.container-all-list {
-    padding-left: 215px;
-    padding-right: 215px;
-    width: 1600px;
 }
 
 .all-list {
@@ -365,5 +348,4 @@ img {
     color: var(--secondary-text-color); 
     padding-bottom: 20px;
     padding-left: 24px;
-
 }

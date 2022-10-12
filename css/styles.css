@@ -122,7 +122,6 @@ ul {
 /* main section */
 .section-main {
     background-color: var(--bg-black-color);
-    height: 600px;
     padding-top: 200px;
     padding-bottom: 200px;
 }
@@ -163,9 +162,7 @@ ul {
 /* benefits section */
 
 .section-benefits {
-    background-color: var(--bg-white-color);
     padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 
@@ -190,7 +187,6 @@ ul {
 /* section-our-working */
 
 .section-working {
-    background-color: var(--bg-white-color);
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -282,22 +278,16 @@ ul {
 
 /* page portpholio */
 
-.main-portpholio {
-    background-color: var(--bg-white-color);
+.section-portpholio {
     padding-top: 94px;
     padding-bottom: 94px;
-}
-
-.container-portpholio {
-    display: flex;
-    flex-direction: column;
 }
 
 .button-list {
     display: flex;
     gap: 8px;
-    padding-bottom: 50px;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .btn {
@@ -309,7 +299,7 @@ ul {
     font-family: Roboto;
     padding: 6px 22px;
     border: none;
-        border-radius: 4px;
+    border-radius: 4px;
 }
 
 .btn:hover,

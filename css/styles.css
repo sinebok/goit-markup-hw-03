@@ -165,6 +165,7 @@ ul {
 .section-benefits {
     background-color: var(--bg-white-color);
     padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 
@@ -191,11 +192,12 @@ ul {
 .section-working {
     background-color: var(--bg-white-color);
     padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .list-working {
     display: flex;
-    padding-top: 50px;
+    margin-top: 50px;
     justify-content: center;
     gap: 30px;
 }
@@ -211,7 +213,7 @@ ul {
 .list-team-container {
     display: flex;
     justify-content: space-between;
-    padding-top: 50px;
+    margin-top: 50px;
 }
 
 .list-team {
@@ -220,9 +222,13 @@ ul {
     border-radius: 0px 0px 4px 4px;
 }
 
-.name {
+.container-for-p {
     padding-top: 30px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
+}
+
+.name {
+    margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -230,7 +236,6 @@ ul {
 }
 
 .position {
-    padding-bottom: 30px;
     color: var(--secondary-text-color);
     font-size: 16px;
     line-height: 1.19;
@@ -242,8 +247,6 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding-top: 60px;
-    padding-bottom: 60px;
 }
 
 .address-container {
@@ -254,6 +257,8 @@ ul {
 
 .footer {
     background-color: var(--bg-black-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .address {
@@ -262,6 +267,7 @@ ul {
     color: var(--white-color);
     font-style: normal;
     text-decoration: none;
+    letter-spacing: 0.03em;
 }
 
 .footer .mail,
@@ -271,6 +277,7 @@ ul {
     font-size: 14px;
     line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
+    letter-spacing: 0.03em;
 }
 
 /* page portpholio */
@@ -302,7 +309,6 @@ ul {
     font-family: Roboto;
     padding: 6px 22px;
     border: none;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
         border-radius: 4px;
 }
 
@@ -332,20 +338,19 @@ img {
     height: auto;
 }
 
+.container-pretitle {
+    padding: 20px 24px;
+}
+
 .title-image {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    padding-top: 20px;
-    padding-bottom: 4px;
-    padding-left: 24px;
 }
 
 .p-image {
     font-size: 16px;
     line-height: 1.86;
     color: var(--secondary-text-color); 
-    padding-bottom: 20px;
-    padding-left: 24px;
 }
